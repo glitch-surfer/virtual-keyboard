@@ -5,4 +5,8 @@
 
 body {
   background-color: bisque;
+}
+
+.text-area {
+  resize: none;
 }/*# sourceMappingURL=styles.css.map */
