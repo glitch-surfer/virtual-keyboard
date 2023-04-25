@@ -12,5 +12,62 @@ body {
 }
 
 .text-area {
+  background-color: rgb(250, 245, 237);
+  border: 2px solid goldenrod;
   resize: none;
+  border-radius: 5px;
+}
+
+.keyboard {
+  width: 820px;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: goldenrod;
+  border: 2px solid rgb(190, 143, 21);
+  border-radius: 5px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: bisque;
+  background-color: rgb(45, 42, 42);
+  border-radius: 2px;
+}
+
+.btn_func {
+  background-color: rgb(62, 39, 7);
+}
+
+.backspace {
+  flex: 1 0 100px;
+}
+
+.tab {
+  flex: 2 0 60px;
+}
+
+.del {
+  flex: 1 0 60px;
+}
+
+.caps-lock {
+  flex: 1 0 100px;
+}
+
+.enter {
+  flex: 1 0 100px;
+}
+
+.shift {
+  flex: 1 0 100px;
+}
+
+.space {
+  flex: 1 0 350px;
 }/*# sourceMappingURL=styles.css.map */
