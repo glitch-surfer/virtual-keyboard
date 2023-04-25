@@ -1,0 +1,38 @@
+.btn {
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $background-color;
+    background-color: $btn-color;
+    border-radius: $border-radius-second;
+}
+.btn_func {
+    background-color: $btn-func-color;
+}
+
+.backspace {
+    flex: 1 0 100px;
+}
+.tab {
+    flex: 2 0 60px;
+}
+.del {
+    flex: 1 0 60px;
+}
+.caps-lock {
+    flex: 1 0 100px;
+}
+
+.enter {
+    flex: 1 0 100px;
+}
+
+.shift {
+    flex: 1 0 100px;
+}
+
+.space {
+    flex: 1 0 350px;
+}
