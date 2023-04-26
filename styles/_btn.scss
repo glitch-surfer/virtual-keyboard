@@ -4,12 +4,36 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     color: $background-color;
     background-color: $btn-color;
     border-radius: $border-radius-second;
+    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+
+    &:hover {
+        background-color: lighten($color: $btn-color, $amount: 15);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+
 }
 .btn_func {
     background-color: $btn-func-color;
+
+    &:hover {
+        background-color: lighten($color: $btn-func-color, $amount: 15);
+    }
+}
+
+.btn.active {
+    background-color: lighten($color: $btn-color, $amount: 15);
+    transform: scale(0.95);
+}
+
+.btn_func.active {
+    background-color: lighten($color: $btn-func-color, $amount: 15);
 }
 
 .backspace {
@@ -42,5 +66,3 @@
 .meta {
     flex: 1 0 50px;
 }
-
-.btn.active
