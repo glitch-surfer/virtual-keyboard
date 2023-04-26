@@ -7,7 +7,7 @@ const languageSwitcher = (event) => {
       && document.querySelector('.ctrl').classList.contains('active')) {
       document.currerntLanguage = !document.currerntLanguage;
       document.querySelector('.keyboard').remove();
-      document.body.append(generateKeyboard());
+      document.querySelector('.text-area').after(generateKeyboard());
     }
   }
 };
