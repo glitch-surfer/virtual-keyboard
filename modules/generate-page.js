@@ -16,10 +16,10 @@ const generateTextArea = () => {
   return textArea;
 };
 
-function generatePage() {
+const generatePage = () => {
   document.body.append(generateTitle());
   document.body.append(generateTextArea());
   document.body.append(generateKeyboard());
-}
+};
 
 export default generatePage;

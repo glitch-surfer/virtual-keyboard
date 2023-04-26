@@ -9,7 +9,12 @@ const generateKeyboardContainer = () => {
 const generateBtn = (key) => {
   const btn = document.createElement('div');
   btn.className = key.classes;
-  btn.textContent = key.keyEng;
+
+  if (document.currerntLanguage) {
+    btn.textContent = key.keyEng;
+  } else {
+    btn.textContent = key.keyRus;
+  }
   return btn;
 };
 
