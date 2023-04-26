@@ -277,8 +277,8 @@ const keyboard = [
 
   },
   {
-    keyRus: ';',
-    keyEng: 'ж',
+    keyRus: 'ж',
+    keyEng: ';',
     code: 'Semicolon',
     classes: 'btn',
 
@@ -301,7 +301,7 @@ const keyboard = [
     keyRus: 'Shift',
     keyEng: 'Shift',
     code: 'ShiftLeft',
-    classes: 'btn btn_func shift',
+    classes: 'btn btn_func shift-left',
 
   },
   {
@@ -375,8 +375,8 @@ const keyboard = [
 
   },
   {
-    keyRus: 'ArrowUp',
-    keyEng: 'ArrowUp',
+    keyRus: '▲',
+    keyEng: '▲',
     code: 'ArrowUp',
     classes: 'btn btn_func',
 
@@ -385,7 +385,7 @@ const keyboard = [
     keyRus: 'Shift',
     keyEng: 'Shift',
     code: 'ShiftRight',
-    classes: 'btn btn_func shift',
+    classes: 'btn btn_func shift-right',
 
   },
   {
@@ -396,17 +396,17 @@ const keyboard = [
 
   },
   {
-    keyRus: 'Alt',
-    keyEng: 'Alt',
+    keyRus: 'option',
+    keyEng: 'option',
     code: 'AltLeft',
     classes: 'btn btn_func alt',
 
   },
   {
-    keyRus: 'Meta',
-    keyEng: 'Meta',
+    keyRus: 'command',
+    keyEng: 'command',
     code: 'MetaLeft',
-    classes: 'btn btn_func alt',
+    classes: 'btn btn_func meta',
 
   },
   {
@@ -417,36 +417,36 @@ const keyboard = [
 
   },
   {
-    keyRus: 'Meta',
-    keyEng: 'Meta',
+    keyRus: 'command',
+    keyEng: 'command',
     code: 'MetaRight',
-    classes: 'btn btn_func alt',
+    classes: 'btn btn_func meta',
 
   },
   {
-    keyRus: 'Alt',
-    keyEng: 'Alt',
+    keyRus: 'option',
+    keyEng: 'option',
     code: 'AltRight',
     classes: 'btn btn_func option',
 
   },
   {
-    keyRus: 'ArrowLeft',
-    keyEng: 'ArrowLeft',
+    keyRus: '◄',
+    keyEng: '◄',
     code: 'ArrowLeft',
     classes: 'btn btn_func',
 
   },
   {
-    keyRus: 'ArrowDown',
-    keyEng: 'ArrowDown',
+    keyRus: '▼',
+    keyEng: '▼',
     code: 'ArrowDown',
     classes: 'btn btn_func',
 
   },
   {
-    keyRus: 'ArrowRight',
-    keyEng: 'ArrowRight',
+    keyRus: '►',
+    keyEng: '►',
     code: 'ArrowRight',
     classes: 'btn btn_func',
 

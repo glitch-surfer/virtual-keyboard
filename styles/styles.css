@@ -64,10 +64,18 @@ body {
   flex: 1 0 100px;
 }
 
-.shift {
-  flex: 1 0 100px;
+.shift-left {
+  flex: 1 0 150px;
+}
+
+.shift-right {
+  flex: 1 0 50px;
 }
 
 .space {
-  flex: 1 0 350px;
+  flex: 1 0 320px;
+}
+
+.meta {
+  flex: 1 0 50px;
 }/*# sourceMappingURL=styles.css.map */
