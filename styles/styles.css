@@ -98,4 +98,10 @@ body {
 
 .meta {
   flex: 1 0 50px;
+}
+
+.description {
+  margin-top: 0;
+  font-size: 25px;
+  color: rgb(144, 96, 6);
 }/*# sourceMappingURL=styles.css.map */

@@ -16,10 +16,18 @@ const generateTextArea = () => {
   return textArea;
 };
 
+const generateDescription = () => {
+  const description = document.createElement('p');
+  description.classList.add('description');
+  description.innerHTML = 'Клавиатура создана в операционной системе MacOS.<br> Для переключения раскладки используйте левые Shift + Control';
+  return description;
+};
+
 const generatePage = () => {
   document.body.append(generateTitle());
   document.body.append(generateTextArea());
   document.body.append(generateKeyboard());
+  document.body.append(generateDescription());
 };
 
 export default generatePage;
