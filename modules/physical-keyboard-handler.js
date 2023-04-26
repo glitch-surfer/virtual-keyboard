@@ -6,10 +6,12 @@ const physicalKeyboardHandler = (event) => {
   const container = document.querySelector('.keyboard');
   const virtualKey = container.children[idx];
 
-  virtualKey.classList.add('active');
-
-  setTimeout(() => {
+  if (event.type === 'keydown') {
+    if (virtualKey.classList.contains('active') === false) {
+      virtualKey.classList.add('active');
+    }
+  } else {
     virtualKey.classList.remove('active');
-  }, 150);
+  }
 };
 export default physicalKeyboardHandler;

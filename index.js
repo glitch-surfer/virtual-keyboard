@@ -12,4 +12,5 @@ document.currerntLanguage = true;
 generatePage();
 
 document.addEventListener('keydown', physicalKeyboardHandler);
+document.addEventListener('keyup', physicalKeyboardHandler);
 document.addEventListener('keydown', languageSwitcher);
