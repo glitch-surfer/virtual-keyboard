@@ -14,7 +14,7 @@ const insertPhisicalKeyboard = (event) => {
     textarea.value += ' ';
   } else if (code === 'Tab') {
     textarea.value += '  ';
-  } else if (code === 'Caps Lock'
+  } else if (code === 'CapsLock'
   || code === 'ShiftLeft'
   || code === 'ShiftRight'
   || code === 'ControlLeft'

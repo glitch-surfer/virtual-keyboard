@@ -286,7 +286,7 @@ const keyboard = [
     keyEng: 'Caps Lock',
     keyEngCaps: 'Caps Lock',
     keyEngShift: 'Caps Lock',
-    code: 'Caps Lock',
+    code: 'CapsLock',
     classes: 'btn btn_func caps-lock',
   },
   {
