@@ -16,6 +16,7 @@
 
     &:active {
         transform: scale(0.95);
+        background-color: lighten($color: lighten($color: $btn-color, $amount: 15), $amount: 8);
     }
 
 }
@@ -25,15 +26,19 @@
     &:hover {
         background-color: lighten($color: $btn-func-color, $amount: 15);
     }
+
+    &:active {
+        background-color: lighten($color: lighten($color: $btn-func-color, $amount: 15), $amount: 8);
+    }
 }
 
 .btn.active {
-    background-color: lighten($color: $btn-color, $amount: 15);
+    background-color: lighten($color: lighten($color: $btn-color, $amount: 15), $amount: 8);
     transform: scale(0.95);
 }
 
 .btn_func.active {
-    background-color: lighten($color: $btn-func-color, $amount: 15);
+    background-color: lighten($color: lighten($color: $btn-func-color, $amount: 15), $amount: 8);
 }
 
 .backspace {

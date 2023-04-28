@@ -46,6 +46,7 @@ body {
 }
 .btn:active {
   transform: scale(0.95);
+  background-color: #6a6363;
 }
 
 .btn_func {
@@ -54,14 +55,17 @@ body {
 .btn_func:hover {
   background-color: #83520f;
 }
+.btn_func:active {
+  background-color: #a76913;
+}
 
 .btn.active {
-  background-color: #554f4f;
+  background-color: #6a6363;
   transform: scale(0.95);
 }
 
 .btn_func.active {
-  background-color: #83520f;
+  background-color: #a76913;
 }
 
 .backspace {

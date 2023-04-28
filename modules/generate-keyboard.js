@@ -9,7 +9,16 @@ const generateKeyboardContainer = () => {
 const generateBtn = (key) => {
   const btn = document.createElement('div');
   btn.className = key.classes;
-
+  /* if ( document.querySelector('.shift-left')
+  && (document.querySelector('.shift-left').classList.contains('active')
+    || document.querySelector('.shift-right').classList.contains('active'))) {
+    if (document.currerntLanguage) {
+      btn.textContent = key.keyEng.toUpperCase();
+    } else {
+      btn.textContent = key.keyRus.toUpperCase();
+    }
+    return btn;
+  } */
   if (document.currerntLanguage) {
     btn.textContent = key.keyEng;
   } else {
