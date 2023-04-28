@@ -5,6 +5,7 @@ import insertPhisicalKeyboard from './modules/insert-phisical-Keyboard.js';
 import insertVirtualKeyboard from './modules/insert-virtual-Keyboard.js';
 import { shiftDown } from './modules/shift-handler.js'
 import { shiftUp } from './modules/shift-handler.js'
+import capsHandler from './modules/caps-handler.js'
 /* import pressedCaps from './modules/pressed-caps.js' */
 
 /* const arr = [];
@@ -20,5 +21,8 @@ document.addEventListener('keyup', languageSwitcher);
 document.addEventListener('keydown', insertPhisicalKeyboard);
 document.body.addEventListener('click', insertVirtualKeyboard);
 document.addEventListener('keydown', shiftDown);
+document.addEventListener('mousedown', shiftDown);
+document.addEventListener('mouseup', shiftUp);
 document.addEventListener('keyup', shiftUp);
-/* document.addEventListener('keydown', pressedCaps); */
+document.addEventListener('keyup', capsHandler);
+document.addEventListener('click', capsHandler);

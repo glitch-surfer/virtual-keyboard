@@ -84,6 +84,11 @@ body {
   flex: 1 0 100px;
 }
 
+.icon-active {
+  color: goldenrod;
+  background-color: #83520f;
+}
+
 .enter {
   flex: 1 0 100px;
 }

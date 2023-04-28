@@ -54,6 +54,11 @@
     flex: 1 0 100px;
 }
 
+.icon-active {
+    color: $main-color;
+    background-color: lighten($color: $btn-func-color, $amount: 15);
+}
+
 .enter {
     flex: 1 0 100px;
 }
