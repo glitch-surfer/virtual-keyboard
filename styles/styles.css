@@ -45,7 +45,7 @@ body {
   background-color: #554f4f;
 }
 .btn:active {
-  transform: scale(0.95);
+  transform: scale(0.9);
   background-color: #6a6363;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .btn.active {
   background-color: #6a6363;
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 
 .btn_func.active {

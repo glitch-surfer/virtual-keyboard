@@ -15,7 +15,7 @@
     }
 
     &:active {
-        transform: scale(0.95);
+        transform: scale(0.9);
         background-color: lighten($color: lighten($color: $btn-color, $amount: 15), $amount: 8);
     }
 
@@ -34,7 +34,7 @@
 
 .btn.active {
     background-color: lighten($color: lighten($color: $btn-color, $amount: 15), $amount: 8);
-    transform: scale(0.95);
+    transform: scale(0.9);
 }
 
 .btn_func.active {
