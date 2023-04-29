@@ -3,9 +3,8 @@ import physicalKeyboardHandler from './modules/physical-keyboard-handler.js';
 import languageSwitcher from './modules/language-switcher.js';
 import insertPhisicalKeyboard from './modules/insert-phisical-Keyboard.js';
 import insertVirtualKeyboard from './modules/insert-virtual-Keyboard.js';
-import { shiftDown } from './modules/shift-handler.js'
-import { shiftUp } from './modules/shift-handler.js'
-import capsHandler from './modules/caps-handler.js'
+import { shiftDown, shiftUp } from './modules/shift-handler.js';
+import capsHandler from './modules/caps-handler.js';
 /* import pressedCaps from './modules/pressed-caps.js' */
 
 /* const arr = [];

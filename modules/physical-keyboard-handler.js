@@ -1,4 +1,4 @@
-import keyboard from "./keyboard.js";
+import keyboard from './keyboard.js';
 
 const physicalKeyboardHandler = (event) => {
   event.preventDefault();

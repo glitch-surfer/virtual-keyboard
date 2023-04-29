@@ -1,11 +1,11 @@
-import keyboard from "./keyboard.js";
+import keyboard from './keyboard.js';
 
 const insertPhisicalKeyboard = (event) => {
-  const code = event.code;
+  const { code } = event;
   const idx = keyboard.findIndex((item) => item.code === code);
   const textarea = document.querySelector('.text-area');
   const key = document.querySelector('.keyboard').children[idx].textContent;
-  
+
   if (code === 'Enter') {
     textarea.value += '\n';
   } else if (code === 'Backspace') {
