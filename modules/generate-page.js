@@ -19,7 +19,7 @@ const generateTextArea = () => {
 const generateDescription = () => {
   const description = document.createElement('p');
   description.classList.add('description');
-  description.innerHTML = 'Клавиатура создана в операционной системе MacOS.<br> Для переключения раскладки используйте левые Shift + Control';
+  description.innerHTML = 'Клавиатура создана в операционной системе MacOS.<br> Для переключения раскладки используйте левые Control + Alt';
   return description;
 };
 
