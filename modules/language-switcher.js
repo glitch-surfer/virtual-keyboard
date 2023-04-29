@@ -7,6 +7,14 @@ const languageSwitcher = (event) => {
     if (document.querySelector('.alt').classList.contains('active')
       && document.querySelector('.ctrl').classList.contains('active')) {
       document.currerntLanguage = !document.currerntLanguage;
+
+      localStorage.removeItem('currerntLanguage');
+      if (document.currerntLanguage) {
+        localStorage.setItem('currerntLanguage', 'true');
+      } else {
+        localStorage.setItem('currerntLanguage', '');
+      }
+
       // TODO: switch language saving caps doesn`t work correctly
       /* const btns = document.querySelectorAll('.btn');
       if (document.currerntLanguage

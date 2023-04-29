@@ -11,7 +11,7 @@ import capsHandler from './modules/caps-handler.js';
 document.addEventListener('keyup', (e) => {
   console.log(e.key);
 }); */
-document.currerntLanguage = true;
+document.currerntLanguage = !!localStorage.getItem('currerntLanguage');
 generatePage();
 
 document.addEventListener('keydown', physicalKeyboardHandler);
