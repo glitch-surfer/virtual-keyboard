@@ -1,4 +1,3 @@
-/* import keyboard from './keyboard.js'; */
 import generateKeyboard from './generate-keyboard.js';
 
 const generateTitle = () => {

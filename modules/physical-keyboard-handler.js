@@ -14,7 +14,6 @@ const physicalKeyboardHandler = (event) => {
     setTimeout(() => {
       virtualKey.classList.remove('active');
     }, 70);
-    /* virtualKey.classList.remove('active'); */
   }
 };
 export default physicalKeyboardHandler;

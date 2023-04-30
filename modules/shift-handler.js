@@ -16,7 +16,7 @@ const shiftDown = (event) => {
     });
   }
 };
-//  TODO: resolve interaction witch caps lock
+
 const shiftUp = (event) => {
   if (event.code === 'ShiftLeft'
   || event.code === 'ShiftRight'

@@ -5,12 +5,7 @@ import insertPhisicalKeyboard from './modules/insert-phisical-Keyboard.js';
 import insertVirtualKeyboard from './modules/insert-virtual-Keyboard.js';
 import { shiftDown, shiftUp } from './modules/shift-handler.js';
 import capsHandler from './modules/caps-handler.js';
-/* import pressedCaps from './modules/pressed-caps.js' */
 
-/* const arr = [];
-document.addEventListener('keyup', (e) => {
-  console.log(e.key);
-}); */
 document.currerntLanguage = !!localStorage.getItem('currerntLanguage');
 generatePage();
 

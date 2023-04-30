@@ -1,4 +1,3 @@
-/* import keyboard from './keyboard.js'; */
 import generateKeyboard from './generate-keyboard.js';
 
 const languageSwitcher = (event) => {
@@ -14,32 +13,6 @@ const languageSwitcher = (event) => {
       } else {
         localStorage.setItem('currerntLanguage', '');
       }
-
-      // TODO: switch language saving caps doesn`t work correctly
-      /* const btns = document.querySelectorAll('.btn');
-      if (document.currerntLanguage
-        && document.querySelector('.caps-lock').classList.contains('icon-active')) {
-        btns.forEach((item, index) => {
-          const key = item;
-          key.textContent = keyboard[index].keyEngCaps;
-        });
-      } else if (!document.currerntLanguage
-        && document.querySelector('.caps-lock').classList.contains('icon-active')) {
-        btns.forEach((item, index) => {
-          const key = item;
-          key.textContent = keyboard[index].keyRusCaps;
-        });
-      } else if (document.currerntLanguage) {
-        btns.forEach((item, index) => {
-          const key = item;
-          key.textContent = keyboard[index].keyEng;
-        });
-      } else {
-        btns.forEach((item, index) => {
-          const key = item;
-          key.textContent = keyboard[index].keyRus;
-        });
-      } */
       document.querySelector('.keyboard').remove();
       document.querySelector('.text-area').after(generateKeyboard());
     }

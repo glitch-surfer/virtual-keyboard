@@ -6,25 +6,30 @@ const insertPhisicalKeyboard = (event) => {
   const textarea = document.querySelector('.text-area');
   const key = document.querySelector('.keyboard').children[idx].textContent;
 
-  if (code === 'Enter') {
-    textarea.value += '\n';
-  } else if (code === 'Backspace') {
-    textarea.value = textarea.value.slice(0, -1);
-  } else if (code === 'Space') {
-    textarea.value += ' ';
-  } else if (code === 'Tab') {
-    textarea.value += '  ';
-  } else if (code === 'CapsLock'
-  || code === 'ShiftLeft'
-  || code === 'ShiftRight'
-  || code === 'ControlLeft'
-  || code === 'AltLeft'
-  || code === 'MetaLeft'
-  || code === 'MetaRight'
-  || code === 'AltRight') {
-    textarea.value += '';
-  } else {
-    textarea.value += key;
+  switch (code) {
+    case 'Enter':
+      textarea.value += '\n';
+      break;
+    case 'Backspace':
+      textarea.value = textarea.value.slice(0, -1);
+      break;
+    case 'Space':
+      textarea.value += ' ';
+      break;
+    case 'Tab':
+      textarea.value += '  ';
+      break;
+    case 'CapsLock':
+    case 'ShiftLeft':
+    case 'ShiftRight':
+    case 'ControlLeft':
+    case 'AltLeft':
+    case 'MetaLeft':
+    case 'MetaRight':
+    case 'AltRight':
+      break;
+    default:
+      textarea.value += key;
   }
 };
 
