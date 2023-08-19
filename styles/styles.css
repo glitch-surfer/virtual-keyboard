@@ -1,0 +1,116 @@
+.main-title {
+  text-align: center;
+  color: rgb(144, 96, 6);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: bisque;
+}
+
+.text-area {
+  background-color: rgb(250, 245, 237);
+  border: 2px solid goldenrod;
+  resize: none;
+  border-radius: 5px;
+}
+
+.keyboard {
+  width: 820px;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: goldenrod;
+  border: 2px solid rgb(190, 143, 21);
+  border-radius: 5px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: bisque;
+  background-color: rgb(45, 42, 42);
+  border-radius: 2px;
+  transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+.btn:hover {
+  background-color: #554f4f;
+}
+.btn:active {
+  transform: scale(0.9);
+  background-color: #6a6363;
+}
+
+.btn_func {
+  background-color: rgb(62, 39, 7);
+}
+.btn_func:hover {
+  background-color: #83520f;
+}
+.btn_func:active {
+  background-color: #a76913;
+}
+
+.btn.active {
+  background-color: #6a6363;
+  transform: scale(0.9);
+}
+
+.btn_func.active {
+  background-color: #a76913;
+}
+
+.backspace {
+  flex: 1 0 100px;
+}
+
+.tab {
+  flex: 2 0 60px;
+}
+
+.del {
+  flex: 1 0 60px;
+}
+
+.caps-lock {
+  flex: 1 0 100px;
+}
+
+.icon-active {
+  color: goldenrod;
+  background-color: #83520f;
+}
+
+.enter {
+  flex: 1 0 100px;
+}
+
+.shift-left {
+  flex: 1 0 150px;
+}
+
+.shift-right {
+  flex: 1 0 50px;
+}
+
+.space {
+  flex: 1 0 320px;
+}
+
+.meta {
+  flex: 1 0 50px;
+}
+
+.description {
+  margin-top: 0;
+  font-size: 25px;
+  color: rgb(144, 96, 6);
+}/*# sourceMappingURL=styles.css.map */
